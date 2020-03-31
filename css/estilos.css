@@ -1,0 +1,24 @@
+section {
+  background: #522d5b;
+}
+section h1 {
+  height: 200px;
+  background: #d7385e;
+}
+section h2 {
+  background: #fb7b6b;
+  color: white;
+}
+section p {
+  background: #e7d39f;
+}
+
+h1 {
+  color: white;
+}
+
+footer {
+  background: #DC143C;
+}
+
+/*# sourceMappingURL=estilos.css.map */
