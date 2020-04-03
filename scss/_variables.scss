@@ -44,6 +44,7 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$lemon:   #dcedc1 !default;//por que no me deja hacer la variable
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -61,7 +62,8 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    "lemon":      $lemon
   ),
   $colors
 );
@@ -824,7 +826,7 @@ $pagination-disabled-border-color:  $gray-300 !default;
 $jumbotron-padding:                 2rem !default;
 $jumbotron-color:                   null !default;
 $jumbotron-bg:                      $gray-200 !default;
-
+$jumbotron-custom:                  #a8e6cf;
 
 // Cards
 
